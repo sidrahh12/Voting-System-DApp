@@ -19,7 +19,7 @@ This project is a decentralized application built with Solidity, HTML, CSS, and 
 **Steps:**
 
 1. Clone the repository to your local machine:
-```git clone <https://github.com/yourusername/yourrepository.git>```
+```git clone <https://github.com/sidrahh12/Voting-System-DApp>```
 
 2. Navigate to the project directory:
 ```cd <project-directory>```
