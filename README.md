@@ -24,7 +24,7 @@ This project is a decentralized application built with Solidity, HTML, CSS, and 
 2. Navigate to the project directory:
 ```cd <project-directory>```
 
-3.Install the required dependencies:
+3. Install the required dependencies:
 ```npm install```
 
 4. Compile the smart contract:
