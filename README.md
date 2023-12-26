@@ -6,13 +6,13 @@ This project is a decentralized application built with Solidity, HTML, CSS, and 
 
 ## Smart Contract
 
-**Main Contract:** ```VotingSystem.sol``` Features:
+**Main Contract:** ```VotingSystem.sol``` 
 
 **Features:**
-Register new candidates.
-Cast votes for a candidate.
-Retrieve information about registered candidates.
-Check the leading candidate.
+- Register new candidates.
+- Cast votes for a candidate.
+- Retrieve information about registered candidates.
+- Check the leading candidate.
 
 ## Installation
 
