@@ -1,8 +1,6 @@
 # Voting System DApp
-Welcome to our Decentralized Voting System DApp! This project is a secure, transparent, and efficient platform for voting, leveraging the capabilities of blockchain technology and modern web technologies.
-
 **Description:**
-This project is a decentralized application built with Solidity, HTML, CSS, and JavaScript. It allows users to register and vote for their preferred candidates in a secure and transparent manner. The system displays registered candidates and the leading candidate based on the votes received.
+This Solidity dApp enables users to participate in a decentralized voting system, ensuring transparency and immutability of the voting process. It allows users to register and vote for their preferred candidates in a secure and transparent manner. The system displays registered candidates and the leading candidate based on the votes received. It's built on the Ethereum blockchain. This project is a decentralized application built with Solidity, HTML, CSS, and JavaScript. 
 
 ## Smart Contract
 
@@ -47,6 +45,6 @@ The dApp should be accessible at http://localhost:3000.
 3. Vote for a candidate by selecting them.
 4. View all registered candidates.
 5. Check the leading candidate.
-
+   
 ## License
 This project is licensed under the MIT License.
