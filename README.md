@@ -42,10 +42,11 @@ The dApp should be accessible at http://localhost:3000.
 ## Usage
 
 **Steps:**
-Connect your Ethereum wallet (e.g., MetaMask) to the dApp.
-Register a new candidate by providing the necessary details.
-Vote for a candidate by selecting them.
-View all registered candidates.
-Check the leading candidate.
-License
+1. Connect your Ethereum wallet (e.g., MetaMask) to the dApp.
+2. Register a new candidate by providing the necessary details.
+3. Vote for a candidate by selecting them.
+4. View all registered candidates.
+5. Check the leading candidate.
+
+## License
 This project is licensed under the MIT License.
