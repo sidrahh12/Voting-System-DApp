@@ -9,6 +9,12 @@ A decentralized voting application built on Ethereum (Sepolia Testnet) that enab
 ![Vote DeCentral](https://github.com/user-attachments/assets/9e4722e9-205e-4b8c-9194-544c4eeeb3dd)
 ![Vote DeCentral](https://github.com/user-attachments/assets/f4b23269-52f1-483a-8aee-637db66af271)
 ![Vote DeCentral](https://github.com/user-attachments/assets/05ad52bb-683f-45a2-bc6e-dcabecabc0f7)
+![Vote DeCentral](https://github.com/user-attachments/assets/538da71d-5a80-439d-9b33-b31525b37262)
+![Vote DeCentral](https://github.com/user-attachments/assets/f734396e-2e81-497a-a4cc-c158ad2341ff)
+![Vote DeCentral](https://github.com/user-attachments/assets/796cf029-cdf7-4770-b6bc-3b72994cf49e)
+![Vote DeCentral](https://github.com/user-attachments/assets/91cef692-47c3-4eed-a7a2-575f99cf1be0)
+
+
 
 
 
