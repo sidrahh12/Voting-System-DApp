@@ -2,7 +2,19 @@
 
 A decentralized voting application built on Ethereum (Sepolia Testnet) that enables secure, transparent, and tamper-proof elections using modern Web3 tools.
 
-![DApp Screenshot](screenshot.png) *(Add your screenshot here)*
+![DApp Screenshot](screenshot.png) 
+![Vote DeCentral](https://github.com/user-attachments/assets/49bb5000-6b78-4ea4-b50a-f2bd4e1641e2)
+![Vote DeCentral](https://github.com/user-attachments/assets/68db7cc2-8695-48c2-9e0a-ced51d9a2922)
+![Vote DeCentral](https://github.com/user-attachments/assets/3ae4f305-3701-4bdc-9ee4-3b7f1a863302)
+![Vote DeCentral](https://github.com/user-attachments/assets/9e4722e9-205e-4b8c-9194-544c4eeeb3dd)
+![Vote DeCentral](https://github.com/user-attachments/assets/f4b23269-52f1-483a-8aee-637db66af271)
+![Vote DeCentral](https://github.com/user-attachments/assets/05ad52bb-683f-45a2-bc6e-dcabecabc0f7)
+
+
+
+
+
+
 
 ## Table of Contents
 - [Description](#description-)
