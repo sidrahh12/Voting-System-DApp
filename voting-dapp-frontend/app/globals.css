@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern Web3 Theme */
+:root {
+  --background: 15 23 42; /* slate-900 */
+  --foreground: 226 232 240; /* slate-200 */
+  --primary: 56 182 255; /* sky-400 */
+  --primary-foreground: 8 47 73; /* sky-950 */
+  --secondary: 124 58 237; /* violet-600 */
+  --accent: 236 72 153; /* pink-500 */
+  --muted: 30 41 59; /* slate-800 */
+  --card: 30 41 59; /* slate-800 */
+  --border: 51 65 85; /* slate-700 */
+}
+
+/* Base styles */
+@layer base {
+  * {
+    @apply border-slate-700; /* Changed from border-border */
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Custom animations */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-gradient {
+    animation: gradient 8s ease infinite;
+    background-size: 200% 200%;
+  }
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}
+
+/* Custom components */
+@layer components {
+  .card {
+    @apply relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-800/50 backdrop-blur-md;
+    transition: all 0.3s ease;
+  }
+  .card:hover {
+    @apply shadow-lg shadow-primary/10;
+    transform: translateY(-2px);
+  }
+  
+  .btn-primary {
+    @apply relative overflow-hidden rounded-full bg-gradient-to-r from-primary to-accent px-6 py-3 font-medium text-primary-foreground;
+    transition: all 0.3s ease;
+  }
+  .btn-primary:hover {
+    @apply shadow-lg shadow-primary/30;
+    transform: scale(1.05);
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+}
