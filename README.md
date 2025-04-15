@@ -1,66 +1,66 @@
-## Foundry
+# Voting System DApp 🗳️🔗
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+A decentralized voting application built on Ethereum (Sepolia Testnet) that enables secure, transparent, and tamper-proof elections using modern Web3 tools.
 
-Foundry consists of:
+![DApp Screenshot](screenshot.png) *(Add your screenshot here)*
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Table of Contents
+- [Description](#description-)
+- [Features](#features-)
+- [Tech Stack](#tech-stack-)
+- [Smart Contract Details](#smart-contract-details-)
+- [Installation](#installation-)
+- [Deployment](#deployment-)
+- [Usage](#usage-)
+- [Contributing](#contributing-)
+- [License](#license-)
 
-## Documentation
+## Description 📖
+This Voting System DApp leverages Ethereum's Sepolia Testnet to provide:
+- 🛡️ Immutable vote recording
+- 🔍 Fully transparent voting history
+- 🔒 MetaMask wallet authentication
+- 📊 Real-time results tracking
+- ⏱️ Configurable voting periods
 
-https://book.getfoundry.sh/
+Deployed using Alchemy infrastructure with Foundry for smart contract development.
 
-## Usage
+## Features ✨
+- ✅ Vote creation and management
+- ✅ Voter whitelisting system
+- ✅ Time-bound voting sessions
+- ✅ Real-time vote tracking
+- ✅ Results verification
 
-### Build
+## Tech Stack 💻
+**Frontend:**
+- Next.js (React Framework)
+- Tailwind CSS
+- Ethers.js
 
-```shell
-$ forge build
-```
+**Smart Contracts:**
+- Solidity
+- Foundry (Forge, Cast)
+- OpenZeppelin Contracts
 
-### Test
+**Infrastructure:**
+- Sepolia Testnet
+- Alchemy RPC & API
+- Vercel (Frontend Hosting)
 
-```shell
-$ forge test
-```
+## Smart Contract Details 📜
+**Network:** Sepolia Testnet  
+**Contract Address:** `0x...` *(Add your contract address here)*  
+**Verified on:** [Etherscan](https://sepolia.etherscan.io/) *(Add link)*  
 
-### Format
+Key contract functions:
+- `createVote()` - Admin creates new voting session
+- `addCandidate()` - Add voting options
+- `vote()` - Cast a vote
+- `getResults()` - View current results
 
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+## Installation ⚙️
+1. Clone the repository:
+```bash
+git clone https://github.com/sidrahh12/Voting-System-DApp.git
+cd Voting-System-DApp
