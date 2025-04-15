@@ -1,4 +1,4 @@
-# Voting System DApp 🗳️🔗
+![Vote DeCentral - Google Chrome 03-04-2025 12_27_46 AM](https://github.com/user-attachments/assets/0b6db666-3815-4078-86ca-1cbcae74dc93)# Voting System DApp 🗳️🔗
 
 A decentralized voting application built on Ethereum (Sepolia Testnet) that enables secure, transparent, and tamper-proof elections using modern Web3 tools.
 
@@ -82,3 +82,57 @@ Key contract functions:
 ```bash
 git clone https://github.com/sidrahh12/Voting-System-DApp.git
 cd Voting-System-DApp
+
+2. Install dependencies:
+```bash
+npm install
+
+3. Set up environment variables:
+```bash
+cp .env.example .env.local
+
+```bash
+Fill in your:
+
+NEXT_PUBLIC_ALCHEMY_API_KEY
+
+NEXT_PUBLIC_CONTRACT_ADDRESS
+
+NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID```
+
+## Deployment 🚀
+Smart Contracts (using Foundry):
+
+```bash
+forge build
+forge script script/DeployVoting.s.sol --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
+
+
+## Frontend:
+
+```bash
+npm run build
+npm run start
+(Or deploy to Vercel via GitHub integration)
+
+## Usage 🖥️
+Connect your MetaMask wallet to Sepolia Testnet
+
+Get test ETH from Sepolia Faucet
+
+1. As admin:
+
+- Create voting sessions
+
+- Manage candidates
+
+- Whitelist voters
+
+2. As voter:
+
+- View active elections
+
+- Cast your vote
+
+- Verify transaction on Etherscan
+
